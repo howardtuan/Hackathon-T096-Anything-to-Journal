@@ -10,7 +10,7 @@
   <a href="README.en.md">English</a>
 </p>
 
-> **BUILDMODE GEN-AI HACKATHON 2026**｜隊伍編號：T096｜參賽組別：Track 01 — AI Agents & Automation
+> **BUILDMODE GEN-AI HACKATHON 2026**｜隊伍編號：T096｜參賽組別：Track 02 — AI for Everyday Life（日常生活 AI）
 
 # Anything to Journal
 
@@ -18,7 +18,7 @@
 
 研究者的論文素材經常散落在 PDF、Word、試算表、圖片、程式碼與筆記中。人工整併不只耗時，也容易讓數據、引用、圖表與原始證據失去連結；直接請生成式 AI「寫成論文」又缺少逐檔盤點、來源追蹤、格式確認與品質閘門，難以審閱或重現。
 
-Anything to Journal 是一套開源 Agent Skill。目標使用者是研究者、學生與研究團隊：把一篇論文的完整素材放進單一全新資料夾，先選擇通用草稿或指定期刊／研討會格式，再由 Agent 逐檔閱讀與整合。系統會產生可編輯 LaTeX、編譯 PDF、來源清冊、證據對照、品質報告及 Overleaf 上傳包；所有關鍵輸出仍由作者確認，工具不會代替作者投稿。
+Anything to Journal 是一套開源 Agent Skill。目標使用者是研究者、學生與研究團隊：把一篇論文的完整素材放進單一全新資料夾，先選擇通用草稿或指定期刊／研討會格式，再由 Agent 逐檔閱讀與整合。系統會產生可編輯 LaTeX、編譯 PDF、來源清冊、證據對照、品質報告及 Overleaf 上傳包；所有關鍵輸出仍由作者確認，工具不會代替作者投稿。本作品以 AI 改善日常研究、學習與個人生產力，因此參加 Track 02 — AI for Everyday Life（日常生活 AI）。
 
 ### 100–200 字參賽摘要
 
