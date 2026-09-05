@@ -30,11 +30,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/howardtuan/Anything-to-Journal.git"
+    "url": "git+https://github.com/howardtuan/Hackathon-T096-Anything-to-Journal.git"
   },
-  "homepage": "https://anything-to-journal-website.howardtuan.workers.dev/",
+  "homepage": "https://hackathon-t096-anything-to-journal-website.howardtuan.workers.dev/",
   "bugs": {
-    "url": "https://github.com/howardtuan/Anything-to-Journal/issues"
+    "url": "https://github.com/howardtuan/Hackathon-T096-Anything-to-Journal/issues"
   },
   "keywords": [
     "agent-skill",

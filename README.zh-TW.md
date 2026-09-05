@@ -6,7 +6,7 @@
 
 <p align="center">把一個研究資料夾裡的任何素材，整理成來源可追蹤的 Journal 稿件、可編輯 LaTeX 專案、逐頁檢查過的 PDF、本機 PDF／LaTeX Workspace，以及可直接上傳 Overleaf 的單一 ZIP。</p>
 
-<p align="center"><a href="https://anything-to-journal-website.howardtuan.workers.dev/">官方網站</a> · <a href="README.md">English</a></p>
+<p align="center"><a href="https://hackathon-t096-anything-to-journal-website.howardtuan.workers.dev/">官方網站</a> · <a href="README.en.md">English</a> · <a href="README.md">黑客松提交說明</a></p>
 
 # Anything to Journal
 
@@ -96,7 +96,7 @@ npx anything-to-journal@latest install --repo /absolute/path/to/repository
 複製本 repo 連結並傳給 agent：
 
 ```text
-請幫我安裝這個 Agent Skill：https://github.com/howardtuan/Anything-to-Journal
+請幫我安裝這個 Agent Skill：https://github.com/howardtuan/Hackathon-T096-Anything-to-Journal
 ```
 
 #### Contributor 從 clone 安裝
@@ -289,7 +289,7 @@ python3 skills/anything-to-journal/scripts/preflight.py source-document.docx --s
 
 - npx 安裝器需要 Node.js 18 以上版本；
 - Python 3.10 以上；
-- TeX 引擎：優先 Tectonic，也支援 XeLaTeX 或 LuaLaTeX；
+- TeX 引擎：優先 Tectonic，也支援 `latexmk`、XeLaTeX 或 pdfLaTeX；
 - 選用本機 Manuscript Workspace 時需要目前版本的瀏覽器；
 - 選用 Pandoc 進行豐富的 DOCX 語意轉換；
 - 選用 LibreOffice／Word、Poppler 與影像工具進行高保真渲染與檢查。

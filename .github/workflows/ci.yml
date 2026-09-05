@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Run Node installer tests
+        run: npm test
       - name: Compile Python sources
         run: python3 -m py_compile install.py skills/anything-to-journal/scripts/*.py tests/*.py
       - name: Run synthetic pipeline tests

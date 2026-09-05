@@ -11,6 +11,6 @@ Before opening a pull request:
 5. never commit real user materials, unpublished results, personal data, publisher logos, or proprietary templates;
 6. run `python3 -m unittest discover -s tests -v` and the Skill quick validator;
 7. treat missing figures, tables, citations, equations, or build evidence as hard failures, never silent warnings.
-8. keep `README.md` and `README.zh-TW.md` complete and semantically aligned whenever behavior changes.
+8. keep the complete user guides, `README.en.md` and `README.zh-TW.md`, semantically aligned whenever behavior changes, and keep the competition overview in `README.md` accurate.
 
-Security-sensitive issues involving malicious documents, archives, templates, or path handling should be reported privately to the repository maintainer once a public hosting location is configured.
+Security-sensitive issues involving malicious documents, archives, templates, or path handling should be reported through the repository's [private security-advisory form](https://github.com/howardtuan/Hackathon-T096-Anything-to-Journal/security/advisories/new).

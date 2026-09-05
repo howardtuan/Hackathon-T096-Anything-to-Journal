@@ -12,4 +12,4 @@ Word/LibreOffice and TeX/PDF parsers remain third-party attack surfaces. Perform
 
 ## Reporting a vulnerability
 
-Use the private security-advisory feature of the public repository once this project is hosted. Until a maintainer contact is configured, do not publish a weaponized sample or attach real user materials to an issue. Provide a minimal synthetic reproducer, affected version/commit, expected behavior, and impact. Remove unpublished research, personal data, access tokens, and third-party copyrighted content.
+Use this repository's [private security-advisory form](https://github.com/howardtuan/Hackathon-T096-Anything-to-Journal/security/advisories/new). Do not publish a weaponized sample or attach real user materials to a public issue. Provide a minimal synthetic reproducer, affected version/commit, expected behavior, and impact. Remove unpublished research, personal data, access tokens, and third-party copyrighted content.
