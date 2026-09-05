@@ -36,36 +36,11 @@ Anything to Journal 是一套開源 Agent Skill。目標使用者是研究者、
 
 ## 系統架構
 
-```mermaid
-flowchart LR
-    U[研究者] -->|放入混合素材| F[全新素材資料夾]
-    U -->|確認通用或指定格式| P[prepare_workspace.py]
-    F --> P
+<p align="center">
+  <img src="assets/system-architecture.svg" width="100%" alt="Anything to Journal 五階段系統架構：研究素材、格式確認與安全盤點、AI Agent 語意處理、可編輯稿件，以及建置、稽核與本機 Workspace 交付流程">
+</p>
 
-    subgraph Agent[AI Agent 層]
-        C[OpenAI Codex／相容 Agent Runtime]
-        S[SKILL.md 工作流與規則]
-        R[逐檔語意審閱、證據整合、稿件撰寫、詢問作者決策]
-        C --> S --> R
-    end
-
-    P --> M[不可變素材副本、source-manifest.json、SHA-256]
-    M --> R
-    R --> T[manuscript.tex、references.bib、traceability.csv、evidence-map.csv]
-
-    T --> B[build.py]
-    B --> X[Tectonic／XeLaTeX／pdfLaTeX]
-    X --> O[PDF、Overleaf ZIP]
-
-    M --> A[audit.py]
-    T --> A
-    O --> A
-    A --> Q[quality-report.md、submission-package.zip]
-
-    T <--> W[workspace_editor.py]
-    W <--> L[本機瀏覽器：PDF Preview／LaTeX]
-    W -->|預覽編譯| X
-```
+整體流程分成五步：研究者提供完整素材；系統先確認投稿格式並建立來源雜湊；AI Agent 依 Skill 規則逐檔審閱、整合證據與撰稿；稿件以可版控的本機檔案保存；最後由 Build、Audit 與 Workspace 三條路徑共同產生作者可審閱的交付包。
 
 ### 元件與資料流
 
