@@ -6,8 +6,7 @@
 
 <p align="center">
   <a href="https://hackathon-t096-anything-to-journal-website.howardtuan.workers.dev/">作品展示</a> ·
-  <a href="README.zh-TW.md">完整中文文件</a> ·
-  <a href="README.en.md">English</a>
+  <a href="https://youtu.be/fMaaxRzUqw8">評選影片</a>
 </p>
 
 > **BUILDMODE GEN-AI HACKATHON 2026**｜隊伍編號：T096｜參賽組別：Track 02 — AI for Everyday Life（日常生活 AI）
@@ -127,7 +126,7 @@ python3 skills/anything-to-journal/scripts/prepare_workspace.py \
   --confirmation-note "User explicitly requested a generic journal draft."
 ```
 
-指定投稿格式時，將 `--draft-only` 改為 `--target-venue`、`--venue-type`，並提供當前官方說明網址或官方模板。完整參數與流程見[中文使用文件](README.zh-TW.md#直接建立工作區)。
+指定投稿格式時，將 `--draft-only` 改為 `--target-venue`、`--venue-type`，並提供當前官方說明網址或官方模板。完整工作流規則見 [`skills/anything-to-journal/SKILL.md`](skills/anything-to-journal/SKILL.md)。
 
 Agent 完成稿件、來源對照及作者決策後，執行正式編譯與稽核：
 
